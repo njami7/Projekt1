@@ -1,0 +1,133 @@
+header {
+	display: block;
+	width: 100%;
+}
+.hero-image {
+	background-image: url("img/Banner.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+}
+.hero-subimage {
+	background-image: url("img/Banner2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+}
+header ul {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+
+header li {
+	float: left;
+	font-size: 20px;
+	margin:5px;
+}
+nav {
+	height: 38px;
+	background-color: #8F8482;
+}
+li a {
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+h1 {
+	color:yellow;
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+.naslov{
+	background-color: black;
+	margin:auto;
+	width:40%;
+}
+.figure{
+	float:left;
+	width:30%;
+}
+.figure img{
+	width:100%;
+}
+.naslov2 p{
+	font-family:verdana;
+	margin-top:50px;
+}
+@media screen and (max-width: 900px) {
+	figure {
+		width: 90%;
+		margin: 1em;
+	}
+	.naslov{
+		width:90%;
+	}
+}
+
+footer {
+	background-color: #8F8482;
+	padding: 0.1em;
+	clear: both;
+}
+footer p {
+	color: white;
+	text-align: center;
+	margin: 0.5em;
+}
+.news img{
+	width:25%;
+}
+.article1 {
+	width:100%;
+	float:left;
+	margin-top:10px;
+}
+.article1 img{
+	float:left;
+}
+.article1 h3{
+	margin-left:100px;
+}
+.news hr{
+margin-top:50px;
+}
+.figure2 img{
+	width:100%;
+}
+.figure2{
+	float:left;
+	width:20%;
+	
+}
+.article2 {
+	width:100%;
+	float:left;
+	margin-top:10px;
+}
+.naslov3{
+	color:black;
+}
+section{
+	width:100%;
+}
+.figure3 img{
+	width:100%;
+}
+.figure3{
+	float:left;
+	width:15%;
+	
+}
+.article3 {
+	width:100%;
+	float:left;
+	margin-top:10px;
+}
